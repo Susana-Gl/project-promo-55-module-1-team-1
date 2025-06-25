@@ -1,0 +1,37 @@
+@use '../core/variables' as vars;
+
+.page__main {
+    padding: 50px 10px;
+}
+
+.Destination3 {
+    width: 80%;
+}
+
+
+.imageTrio {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.topDestination {
+    font-size: 40px;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+
+}
+
+.homeButton {
+    background-color: #5758CD;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 450;
+    width: 100%;
+    padding: 20px 50px;
+    border-radius: 50px;
+    margin-top: 30px;
+    border-style: none;
+
+}

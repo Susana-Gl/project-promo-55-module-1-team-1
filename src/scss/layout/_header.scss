@@ -1,0 +1,21 @@
+.page__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+}
+
+.headerLeft {
+  display: flex;
+  justify-content: left;
+  gap: 30px;
+
+}
+
+.headerTitle {
+  width: 100%;
+  text-align: left;
+  margin-left: 30px;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+}
