@@ -1,7 +1,10 @@
+@use '../core/variables' as vars;
+
 .page__header {
   display: flex;
   justify-content: space-between;
   padding: 50px 20px;
+  background-color: vars.$color-bg;
 }
 
 .headerLeft {
@@ -18,4 +21,9 @@
   font-family: Roboto, sans-serif;
   font-size: 24px;
   font-weight: 900;
+}
+
+.headerLinks {
+  color: #8C8B92;
+  display: none;
 }
