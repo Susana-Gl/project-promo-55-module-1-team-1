@@ -3,7 +3,7 @@
 .page__main {
     padding: 50px 0px;
     background-color: vars.$color-bg;
-    
+
 }
 
 .Destination3 {
@@ -34,7 +34,7 @@
     padding: 20px 50px;
     border-radius: 50px;
     border-style: none;
-    
+
 
 }
 
@@ -43,8 +43,7 @@
     font-weight: 500;
     font-size: 20px;
     font-family: Roboto, sans-serif;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     padding-top: 150px;
     padding-bottom: 45px;
 
@@ -53,12 +52,12 @@
 .destinationImg {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3,auto) ;
+    grid-template-rows: repeat(3, auto);
     text-align: center;
     gap: 50px;
     background-color: vars.$color-bg;
-   
-    
+
+
 }
 
 .imgTop {
@@ -76,9 +75,10 @@
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 40px;
     margin: 0px 46px;
-   
+
 }
-.girlbagImg{
+
+.girlbagImg {
     width: 100%;
     height: auto;
     padding: 60px 20px;
@@ -126,19 +126,19 @@
 .partyText {
     font-size: 18px;
     font-family: Roboto, sans-serif;
-    color:#3D3C47;
+    color: #3D3C47;
     line-height: 60px;
 }
 
 .hotelText {
     font-size: 18px;
     font-family: Roboto, sans-serif;
-    color:#3D3C47;
+    color: #3D3C47;
     line-height: 60px;
 }
 
 .otherContainer {
-    margin-bottom: 60px ;
+    margin-bottom: 60px;
 }
 
 .other {
@@ -179,4 +179,50 @@
     font-family: Roboto, sans-serif;
     font-size: 20px;
     color: #818CA3;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .containerTrio {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+
+    }
+
+    .imageTrio {
+        flex: 1;
+
+    }
+
+    .homeButton {
+        width: 30%;
+        margin-top: 30px;
+
+    }
+
+    .topDestination {
+        font-size: 60px;
+        text-align: left;
+    }
+
+    .destinationButton {
+        display: flex;
+        align-content: flex-start;
+        flex-direction: column;
+        padding-left: 100px;
+        
+    }
+
+    .destinationImg {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(2, auto);
+        text-align: center;
+        gap: 50px;
+        background-color: vars.$color-bg;
+
+    }
+
+
 }

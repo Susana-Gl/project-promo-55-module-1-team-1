@@ -11,6 +11,7 @@
   display: flex;
   justify-content: left;
   gap: 30px;
+  padding-left: 100px;
 
 }
 
@@ -26,4 +27,31 @@
 .headerLinks {
   color: #8C8B92;
   display: none;
+}
+
+@media screen and (min-width: 1440px) {
+
+  .headerLinks {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 80px;
+    padding-right: 50px;
+
+  }
+
+  .headerLinks a {
+    text-decoration: none;
+    color: #8C8B92;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+
+  }
+
+  .headerRight {
+    display: none;
+
+  }
+
 }
