@@ -81,6 +81,7 @@
 .girlbagImg{
     width: 100%;
     height: auto;
+    padding: 60px 20px;
 }
 
 .sectionTravel {
@@ -90,4 +91,92 @@
 .surfImg {
     width: 100%;
     height: auto;
+    padding: 60px 30px;
+}
+
+.travelContainer {
+    display: none;
+}
+
+.travel {
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    text-align: left;
+    letter-spacing: 5px;
+    display: none;
+}
+
+.subtitleTravel {
+    font-size: 40px;
+    font-family: Roboto, sans-serif;
+    text-align: left;
+    font-weight: 600;
+}
+
+.text500 {
+    font-size: 35px;
+    font-family: Roboto, sans-serif;
+}
+
+.text100 {
+    font-size: 35px;
+    font-family: Roboto, sans-serif;
+}
+
+.partyText {
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    color:#3D3C47;
+    line-height: 60px;
+}
+
+.hotelText {
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    color:#3D3C47;
+    line-height: 60px;
+}
+
+.otherContainer {
+    margin-bottom: 60px ;
+}
+
+.other {
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.serviceText {
+    font-size: 50px;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.serviceIcons {
+    width: 90px;
+}
+
+.serviceContainer {
+    padding-left: 60px;
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 90px;
+}
+
+.serviceTitle {
+    font-weight: 700;
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+    padding: 40px 0px 10px 0px;
+}
+
+.serviceSubtitle {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color: #818CA3;
 }
