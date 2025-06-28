@@ -3,28 +3,25 @@
 .page__main {
     padding: 50px 0px;
     background-color: vars.$color-bg;
-
 }
 
-.Destination3 {
+.destination-3 {
     width: 80%;
 }
 
-
-.imageTrio {
+.image-trio {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
 }
 
-.topDestination {
+.top-destination {
     font-size: 40px;
     font-family: Roboto, sans-serif;
     text-align: center;
-
 }
 
-.homeButton {
+.home-button {
     background-color: #5758CD;
     color: white;
     font-family: Roboto, sans-serif;
@@ -34,11 +31,9 @@
     padding: 20px 50px;
     border-radius: 50px;
     border-style: none;
-
-
 }
 
-.h2Top {
+.h2-top {
     color: #F85E9F;
     font-weight: 500;
     font-size: 20px;
@@ -46,25 +41,22 @@
     text-align: center;
     padding-top: 150px;
     padding-bottom: 45px;
-
 }
 
-.destinationImg {
+.destination-img {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
     text-align: center;
     gap: 50px;
     background-color: vars.$color-bg;
-
-
 }
 
-.imgTop {
+.img-top {
     width: 90%;
 }
 
-.textTop {
+.text-top {
     padding: 20px 45px 50px 45px;
     text-align: left;
     line-height: 30px;
@@ -75,26 +67,25 @@
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 40px;
     margin: 0px 46px;
-
 }
 
-.girlbagImg {
+.girlbag-img {
     width: 100%;
     height: auto;
     padding: 60px 20px;
 }
 
-.sectionTravel {
+.section-travel {
     display: none;
 }
 
-.surfImg {
+.surf-img {
     width: 100%;
     height: auto;
     padding: 60px 30px;
 }
 
-.travelContainer {
+.travel-container {
     display: none;
 }
 
@@ -106,38 +97,38 @@
     display: none;
 }
 
-.subtitleTravel {
+.subtitle-travel {
     font-size: 40px;
     font-family: Roboto, sans-serif;
     text-align: left;
     font-weight: 600;
 }
 
-.text500 {
+.text-500 {
     font-size: 35px;
     font-family: Roboto, sans-serif;
 }
 
-.text100 {
+.text-100 {
     font-size: 35px;
     font-family: Roboto, sans-serif;
 }
 
-.partyText {
+.party-text {
     font-size: 18px;
     font-family: Roboto, sans-serif;
     color: #3D3C47;
     line-height: 60px;
 }
 
-.hotelText {
+.hotel-text {
     font-size: 18px;
     font-family: Roboto, sans-serif;
     color: #3D3C47;
     line-height: 60px;
 }
 
-.otherContainer {
+.other-container {
     margin-bottom: 60px;
 }
 
@@ -148,18 +139,18 @@
     letter-spacing: 5px;
 }
 
-.serviceText {
+.service-text {
     font-size: 50px;
     font-family: Roboto, sans-serif;
     text-align: center;
     font-weight: 600;
 }
 
-.serviceIcons {
+.service-icons {
     width: 90px;
 }
 
-.serviceContainer {
+.service-container {
     padding-left: 60px;
     margin-bottom: 60px;
     display: grid;
@@ -168,14 +159,14 @@
     gap: 90px;
 }
 
-.serviceTitle {
+.service-title {
     font-weight: 700;
     font-size: 25px;
     font-family: Roboto, sans-serif;
     padding: 40px 0px 10px 0px;
 }
 
-.serviceSubtitle {
+.service-subtitle {
     font-family: Roboto, sans-serif;
     font-size: 20px;
     color: #818CA3;
@@ -183,45 +174,40 @@
 
 @media screen and (min-width: 1440px) {
 
-    .containerTrio {
+    .container-trio {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
-
     }
 
-    .imageTrio {
+    .image-trio {
         flex: 1;
-
     }
 
-    .homeButton {
+    .home-button {
         width: 30%;
         margin-top: 30px;
-
     }
 
-    .topDestination {
+    .top-destination {
         font-size: 60px;
         text-align: left;
     }
 
-    .destinationButton {
+    .destination-button {
         display: flex;
         align-content: flex-start;
         flex-direction: column;
-        padding-left: 100px;
-        
+        padding-left: 100px;      
     }
 
-    .destinationImg {
+    .destination-img {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: repeat(2, auto);
         text-align: center;
         gap: 50px;
         background-color: vars.$color-bg;
-
     }
 
 
