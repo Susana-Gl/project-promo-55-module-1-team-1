@@ -3,66 +3,132 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <title>Ada Travel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
-    <link rel="icon" href="./images/favicon.png" />
-    <link rel="stylesheet" href="./assets/main-62015576.css">
+    <link rel="icon" href="" />
+    <link rel="stylesheet" href="./assets/index-e8041d71.css">
   </head>
 
   <body>
     <div class="page">
       <header class="page__header">
-  <img src="./images/logo-adalab.png" alt="Adalab">
-  <h1>Bienvenidos a Adalab</h1>
+  <div class="headerLeft">
+    <img src="./images/logocircle.png" alt="logo circle"/>
+  </div>
+  <div class="headerTitle">
+    <h2>Ada Travel</h2>
+  </div>
+  <img src="./images/menu.png" alt="menu hamburger" class="headerRight"/>
+  <div class="headerLinks">
+    <a href=""><span style="color:#222831;">Home</span></a>
+    <a href="">Precios especiales</a>
+    <a href="">Contáctanos</a>
+  </div>
 </header>
-
       <main class="page__main">
-  <h2>Este es el starter kit de Adalab</h2>
-  <p>Lo usamos para aprender:</p>
-  <ul class="main__list">
-    <li>Sass</li>
-    <li>HTML partials</li>
-    <li>Gulp</li>
-    <li>y muchas cosas más</li>
-  </ul>
-  <p>Si quieres saber cúales son las rutas correctas para:</p>
-  <ul class="main__list">
-    <li>
-      una <code class="code">&lt;img /&gt;</code> mira el fichero
-      <code class="code">./src/html/partials/header.html</code>.
-    </li>
-    <li>
-      y para un <code class="code">background-image</code> mira el fichero
-      <code class="code">./src/html/scss/layout/_page.scss</code>.
-    </li>
-  </ul>
-  <p>
-    Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-    <code class="code">./src/html/index.html</code> y
-    <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-    enlaces:
-  </p>
-  <ul class="main__list">
-    <li>
-      <a class="link__adalab" href="https://adalab.es">Adalab</a>
+  <div class="container-trio">
+    <div class="image-trio">
+      <img src="./images/3img.png" alt="3 destinos" class="destination-3" />
+    </div>
 
-    </li>
-    <li>
-      <a class="{=$aClass}" href="./more-info.html">Más info del starter kit</a>
+    <div class="destination-button">
+      <h1 class="top-destination">Travel <span style="color:#F85E9F;">top destination</span> of the world</h1>
+      <button class="home-button">Get Started</button>
+    </div>
+  </div>
 
-    </li>
-  </ul>
-</main>
+  <h2 class="h2-top">TOP SPANISH DESTINATION </h2>
 
+  <section class="destination-img">
+    <div class="img-text-container">
+      <img class="img-top" src=".\images\orilla.png" alt="Orilla" />
+     
+        <span class="price-text" style="color:#F85E9F;">$550.16</span>
+        <p class="price-text" >Tenerife</p>
+      
+    </div>
+    <div class="img-text-container">
+      <img class="img-top" src=".\images\pez.png" alt="Pez" />
+      
+        <span class="price-text" style="color:#F85E9F;">$20.99</span>
+        <p class="price-text" >Oceanografic Valencia</p>
+      
+    </div>
+    <div class="img-text-container">
+      <img class="img-top" src=".\images\montañas.png" alt="Montaña" />
+      
+        <span class="price-text" style="color:#F85E9F;">$150.99</span>
+        <p class="price-text" >Picos de Europa</p>
+      
+    </div>
+  </section>
+
+  <section class="girl-bag">
+    <img class="girlbag-img" src=".\images\girlbag.png" alt="chica con mochila" />
+    <div class="section-travel">
+      <span class="travel" style="color:#F85E9F;">TRAVEL POINT</span>
+      <p class="subtitle-travel">Un viaje inolvidable que recodarás toda tu vida</p>
+
+      <div class="party-hotel" >
+      <div class="party-number">
+        <p class="text-500"> <span style="color:#ff5722;"><strong>500+</strong></span></p>
+        <p class="party-text">Fiestas</p>
+      </div>
+      <div class="hotel">
+        <p class="text-100"><span style="color:#ff5722;"><strong>100</strong></span></p>
+        <p class="hotel-text">Hoteles de lujo</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="surf-container">
+    <img class="surf-img" src="./images/blacksurf.png" alt="iglesia y surf"/>
+
+    <div class="desktop-surf" >
+    <div class="other-container">
+      <h2 class="other"><span style="color:#F85E9F;">OTROS</span></h2>
+      <p class="service-text">Mejores servicios</p>
+    </div>
+
+    <div class="service-container">
+      
+        <img class="service-icons" src="./images/ubicacion.png" alt="ubicación" />
+        <div class="landpoint">
+        <p class="service-title">Destinos</p>
+        <p class="service-subtitle">Elige tu destino</p>
+      </div>
+      
+        <img class="service-icons" src="./images/calendario.png" alt="calendario" />
+        <div class="calendar">
+        <p class="service-title">Fechas</p>
+        <p class="service-subtitle">Consulta tus fechas</p>
+      </div>
+      
+        <img class="service-icons" src="./images/entrada.png" alt="entrada"/>
+        <div class="ticket">
+        <p class="service-title">Entradas</p>
+        <p class="service-subtitle">Eventos al mejor precio</p>
+      </div>
+    </div>
+    </div>
+  </section>
+</main> 
       <footer class="page__footer">
-  <small>
-    &copy; Todos los derechos reservados
-    <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-  </small>
-</footer>
-
+  <div class="footerLeft">
+    <img src="./images/logocircle.png" alt="logo circle" />
+    <h2 class="footerTitle">Ada Travel</h2>
+  </div>
+  <div class="rrss">
+    <img src="./images/facebook.png" alt="Facebook" />
+    <img src="./images/twitter.png" alt="Twitter" />
+    <img src="./images/instagram.png" alt="Instagram" />
+  </div>
+</footer> 
     </div>
     <script src="./js/main.js"></script>
   </body>
