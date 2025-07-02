@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ada Travel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./scss/main.scss" />
+    <link rel="icon" href="" />
+</head>
+
+<body>
+    <div class="page">
+        <load src="./partials/header.html" className="header-contact" />
+    </div>
+</body>
+<main>
+    <div class="contact-container">
+        <span style="color:#F85E9F;">SUSCRÍBETE</span>
+        <div class="contact-map">
+            <form action="/signup" method="post">
+                <input type="email" name="email" placeholder="Email" />
+                <input type="text" name="firstName" placeholder="Nombre" />
+                <input type="textarea" name="comments" placeholder="Comentario">
+                <input type="submit" value="Enviar">
+            </form>
+            <img src="./images/map.png" alt="mapa">
+        </div>
+    </div>
+</main>
+<load src="./partials/footer.html" />
+
+</html>

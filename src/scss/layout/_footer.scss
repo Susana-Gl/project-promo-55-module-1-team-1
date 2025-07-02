@@ -6,22 +6,6 @@
   background-color: vars.$color-bg;
 }
 
-.footerLeft {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-
-}
-
-.footerTitle {
-  width: 100%;
-  text-align: left;
-  margin-left: 30px;
-  font-family: Roboto, sans-serif;
-  font-size: 40px;
-  font-weight: 900;
-}
-
 .rrss {
   display: flex;
   gap: 80px;
