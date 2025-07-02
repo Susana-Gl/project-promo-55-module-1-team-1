@@ -1,0 +1,112 @@
+@use '../core/variables' as vars;
+
+.contact-container {
+    font-family: vars.$font-main;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+        .img-map {
+            padding-bottom: 40px;
+            .img-contact {
+                width: 100%;
+                    }
+            }
+        
+        .text-contact {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 50px;
+            background-color:#FFFBF0;
+            border-radius: 30px;
+        
+            .form-container {
+                display: flex;
+                flex-direction: column;
+                padding-bottom: 50px;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+
+                    .contact-form {
+                        display: flex;
+                        flex-direction: column;
+                        gap:30px;
+                        padding-top: 30px;
+                        padding-bottom: 40px;
+
+                            .input-form {
+                                height: 60px;
+                                border-radius: 20px;
+                                padding-left: 20px;
+                                border: none;
+                                    }
+                            .input-submit {
+                                height: 60px;
+                                width: 120px;
+                                border-radius: 20px;
+                                background-color: #5D50C6;
+                                color: white;
+                                font-weight: 600;
+                                border:none;
+                            }
+                    }
+                }
+        }
+}
+
+@media screen and (min-width: 1200px) {
+    .contact-container { 
+        display: flex;
+        flex-direction: row;
+        margin: 40px 80px 0 60px;
+
+            .img-map {
+                width: 40%;
+                padding: 0;
+                    .img-contact{
+                        height: 100%;
+                        width: 100%;
+                        }
+                    }
+            .text-contact {
+                width: 60%;
+                display: flex;
+                align-items:flex-start;
+                    
+                    .pink-title {
+                        margin-left: 35px;    
+                        }
+                    
+                    .contact-form {
+                        display: flex;
+                        flex-direction: column;
+                        width: 90%;
+                        gap:30px;
+                        padding-top: 30px;
+                        padding-bottom: 40px;
+
+                            .input-form {
+                                height: 60px;
+                                border-radius: 20px;
+                                padding-left: 20px;
+                                border: none;
+                                    }
+                            .input-submit {
+                                height: 60px;
+                                width: 120px;
+                                border-radius: 20px;
+                                background-color: #5D50C6;
+                                color: white;
+                                font-weight: 600;
+                                border:none;
+                                }
+            }
+    
+        
+    }
+}
+}

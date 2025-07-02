@@ -6,9 +6,54 @@
   background-color: vars.$color-bg;
 }
 
+.footer-links {
+  display: none;
+}
+
+.footer-contact {
+  background-color: white;
+  padding-top: 300px;
+  margin: 40px 80px 0 60px;
+
+}
 .rrss {
   display: flex;
-  gap: 80px;
+  gap: 50px;
   padding-top: 60px;
 
+}
+.footer-img {
+  width: 35px;
+}
+
+.copyright {
+  padding-top: 40px;
+  font-family: vars.$font-main;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 1200px) {
+  .all-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+   
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    font-family: vars.$font-main;
+    align-items: end;
+    
+  }
+
+  .a-footer {
+    text-decoration: none;
+    color: #6F6F76;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    
+
+  }
 }

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Ada Travel</title>
+    <title>Ada Travel Contact</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,23 +16,29 @@
 
 <body>
     <div class="page">
-        <load src="./partials/header.html" className="header-contact" />
+        <load src="./partials/header.html" className="header-contact"/>
     </div>
 </body>
 <main>
     <div class="contact-container">
-        <span style="color:#F85E9F;">SUSCRÍBETE</span>
-        <div class="contact-map">
-            <form action="/signup" method="post">
-                <input type="email" name="email" placeholder="Email" />
-                <input type="text" name="firstName" placeholder="Nombre" />
-                <input type="textarea" name="comments" placeholder="Comentario">
-                <input type="submit" value="Enviar">
-            </form>
-            <img src="./images/map.png" alt="mapa">
+        <div class="text-contact">
+            <span class="pink-title" style="color:#F85E9F;">SUSCRÍBETE</span>
+            <div class="form-container">
+                <form class="contact-form" action="/signup" method="post">
+                    <input class="input-form" type="email" name="email" placeholder="Email" />
+                    <input class="input-form" type="text" name="firstName" placeholder="Nombre" />
+                    <input class="input-form" type="textarea" name="comments" placeholder="Comentario">
+                    <input class="input-submit" type="submit" value="Enviar">
+                </form>
+             </div>
         </div>
+
+        <div class="img-map">
+            <img  class="img-contact" src="./images/map.png" alt="mapa">
+        </div>
+       
     </div>
 </main>
-<load src="./partials/footer.html" />
+<load src="./partials/footer.html" className="footer-contact" />
 
 </html>

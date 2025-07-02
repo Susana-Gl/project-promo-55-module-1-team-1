@@ -1,8 +1,20 @@
-<footer class="page__footer">
+<footer class="page__footer {=$className}">
   <load src="/partials/logo.html" />
-  <div class="rrss">
-    <img src="./images/facebook.png" alt="Facebook" />
-    <img src="./images/twitter.png" alt="Twitter" />
-    <img src="./images/instagram.png" alt="Instagram" />
+
+      <div class="rrss">
+        <img class="footer-img" src="./images/facebook.png" alt="Facebook"/>
+        <img class="footer-img" src="./images/twitter.png" alt="Twitter"/>
+        <img class="footer-img" src="./images/instagram.png" alt="Instagram"/>
+      </div>
+      <nav class="footer-links">
+        <ul>
+          <a class="a-footer" href="index.html" target="_blank">Home</a>
+          <a class="a-footer" href="" target="_blank">Nosotras</a>
+          <a class="a-footer" href="./" target="_blank">Contacto</a>
+        </ul>
+      </nav>
+
+  <div class="copyright">
+    <p>Copyright © 2024 Adalab</p>
   </div>
 </footer>
