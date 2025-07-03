@@ -33,9 +33,24 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .all-footer {
+  .page__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  
+  .footer-contact {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+  }
+  .footer-home {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-right: 100px;
   }
    
   .footer-links {

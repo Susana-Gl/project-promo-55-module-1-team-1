@@ -5,7 +5,6 @@
   justify-content: space-between;
   padding: 50px 20px;
   background-color: vars.$color-bg;
-  position: fixed;
 }
 
 .header-contact {
@@ -21,10 +20,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-
-  .page__header {
-    position: relative;
-  }
   .header-links {
     display: flex;
     flex-direction: row;
@@ -39,7 +34,7 @@
     text-decoration: none;
     color: #8C8B92;
     font-family: Roboto, sans-serif;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 600;
 
   }

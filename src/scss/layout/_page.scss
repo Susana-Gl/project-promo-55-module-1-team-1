@@ -206,7 +206,7 @@
     color: #818CA3;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
 
     .container-trio {
         display: flex;
@@ -215,7 +215,7 @@
     }
 
     .image-trio {
-        flex: 1;
+        flex: 70%;
     }
 
     .home-button {
