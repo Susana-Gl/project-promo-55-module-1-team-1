@@ -4,13 +4,15 @@
   display: flex;
   justify-content: space-between;
   padding: 50px 20px;
-  background-color: vars.$color-bg;
+  background-color: white;
+  width: 100%;
+  position: fixed;
 }
 
 .header-contact {
-  background-color: white;
+  background-color: transparent;
   padding-bottom: 300px;
-  margin: 40px 80px 0 60px;
+  width: 100%;
 }
 
 
