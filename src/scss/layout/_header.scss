@@ -6,12 +6,15 @@
   padding: 50px 20px;
   background-color: vars.$color-bg;
   position: fixed;
+
 }
 
 .header-contact {
   background-color: white;
   padding-bottom: 300px;
-  margin: 40px 80px 0 60px;
+  /*margin: 40px 80px 0 60px;*/
+  width: 100%;
+  position: fixed;
 }
 
 
@@ -19,6 +22,7 @@
   color: #8C8B92;
   display: none;
 }
+
 
 @media screen and (min-width: 1200px) {
 
